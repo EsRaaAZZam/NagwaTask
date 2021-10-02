@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="countQuestions">
+    <listeners>
+        <listener class-name="com.nagwa_task.utilities.listeners.TestNGListener"/>
+    </listeners>
+
+    <test name="countQuestions">
+        <classes>
+            <class name="com.nagwa_task.utilities.extent_report.ExtentReport"/>
+            <class name="com.nagwa_task.tests.countQuestions.CountQuesRunner"/>
+        </classes>
+    </test>
+</suite>
